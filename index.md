@@ -1,6 +1,8 @@
 ## Здесь скоро будет город сад
 
-$$I_i^{RIF}=\frac{Q_{TOP}(X_i=1)}{Q_{TOP}}$$
+$$
+I_i^{RIF}=\frac{Q_{TOP}(X_i=1)}{Q_{TOP}}
+$$
 
 You can use the [editor on GitHub](https://github.com/HexM0nk/HexM0nk.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
