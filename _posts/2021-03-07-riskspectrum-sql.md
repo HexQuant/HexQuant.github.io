@@ -9,4 +9,4 @@ tags: RiskSpectrum SQL
 {% gist f17d4021349e510bfb4f09aa1792027b Diamond.sql %}
 
 Выгрузить рёберный граф ДО:
-{% 9fab3c2105a33e57ce0747e13edcbb52 GetFTGraph.sql %}
+{% gist 9fab3c2105a33e57ce0747e13edcbb52 GetFTGraph.sql %}
