@@ -1,9 +1,17 @@
+---
+layout: post
+title:  "Подгонка вероятностного распределения"
+author: HexQuant
+tag: Статистика
+---
+
+{{ page.last-modified-date }}
+
 <!-- Mathjax Support -->
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
-{{ page.last-modified-date }}
-# Подгонка вероятностного распределения
+
 Предположим У нас есть значения квантилей:
 
 $$
