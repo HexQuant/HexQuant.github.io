@@ -14,6 +14,7 @@ tags: Python
 --- | ---
 numpy | Матричные вычисления и линейная алгебра
 scipy | Много всего математического
+cvxopt | Библиотека выпуклой оптимизации в том числе и в целых числах
 pandas | Работа с электронными таблицами
 sympy | Символьная математика
 statsmodels | Статистика
@@ -29,7 +30,9 @@ python-docx | Работа с файлами в формате *.docx
 iapws | Таблицы состояния воды, льда и пара.
 
 ## Установка
-### Miniconda=
+### Miniconda
+[Miniconda](https://docs.conda.io/en/latest/miniconda.html) - Python c пакетным менеджером conda.
+
 Необходимые пакеты из основного репозитория:
 
 ```console
@@ -38,7 +41,7 @@ conda install numpy scipy pandas sympy statsmodels networkx graphviz matplotlib 
 Необходимые пакеты из [conda-forge](https://anaconda.org/conda-forge):
 
 ```console
-conda install -c conda-forge pyautogui pywinauto python-docx iapws
+conda install -c conda-forge pyautogui pywinauto python-docx iapws cvxopt
 ```
 
 ### WinPython
