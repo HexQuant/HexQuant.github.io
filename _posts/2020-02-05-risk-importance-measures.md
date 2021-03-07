@@ -3,7 +3,14 @@
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-# Риск показатели
+---
+layout: post
+title: Риск показатели
+tags: ВАБ
+---
+
+{{ page.last-modified-date }}
+
 В настоящее время для [ВАБ](https://en.wikipedia.org/wiki/Probabilistic_risk_assessment) предложено большое число показателей значимости как компонентов так и отдельных систем, которые численно характеризуют значимость тех или иных событий.
 
 Для определения показателей значимости определим набор минимальных сечений $$ \overrightarrow{MCS} $$. Тогда вероятность верхнего события:
