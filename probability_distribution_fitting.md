@@ -28,6 +28,7 @@ $$
 
 $$k 1_1=k_2=k_3=\frac{1}{3} $$
 
+Ниже представлен код на Python, выполняющий подгонку параметра под квантили для нескольких вероятностных распределений. 
 ```python
 import numpy as np
 from scipy.stats import gamma, beta, lognorm, norm
