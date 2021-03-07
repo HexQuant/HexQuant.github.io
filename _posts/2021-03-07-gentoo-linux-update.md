@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Обновление пакетов в Gentoo Linux"
+tag: Gentoo Linux
 ---
 
-# Обновление пакетов Gentoo Linux
+# Обновление пакетов в Gentoo Linux
 ```console
 emerge --ask --update --deep --newuse --verbose-conflicts --with-bdeps=y @world
 ```
