@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Риск показатели"
+author: HexQuant
 tags: ВАБ
 ---
 
