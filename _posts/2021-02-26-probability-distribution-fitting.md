@@ -12,7 +12,7 @@ tag: Статистика Python
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-Предположим У нас есть значения квантилей:
+Предположим У нас есть значения [квантилей](https://ru.wikipedia.org/wiki/Квантиль):
 
 $$
 \begin{align*}
