@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+---
+
 # Обновление пакетов Gentoo Linux
 ```console
 emerge --ask --update --deep --newuse --verbose-conflicts --with-bdeps=y @world
