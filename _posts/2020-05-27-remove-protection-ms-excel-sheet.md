@@ -17,7 +17,7 @@ tags: "MS Excel"
 ## Перебор пароля скриптом
 Для перебора пароля нужно запустить данный макрос:
 
-```vba
+```vbscript
 Sub PasswordBreaker()
   Dim i As Integer, j As Integer, k As Integer
   Dim l As Integer, m As Integer, n As Integer
