@@ -2,7 +2,7 @@
 layout: post
 title:  "Подгонка вероятностного распределения"
 author: HexQuant
-tag: Статистика
+tag: Статистика Python
 ---
 
 {{ page.last-modified-date }}
