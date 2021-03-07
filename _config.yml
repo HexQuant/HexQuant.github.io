@@ -1,4 +1,6 @@
 theme: jekyll-theme-hacker
+title: HexQuant/HexQuant.github.io
+description: Свалка мыслей
 markdown: kramdown
 kramdown:
    math_engine: mathjax
