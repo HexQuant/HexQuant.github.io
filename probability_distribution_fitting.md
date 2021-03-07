@@ -1,3 +1,8 @@
+<!-- Mathjax Support -->
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 # Подгонка вероятностного распределения
 У нас есть значения квантилей:
 
@@ -22,7 +27,7 @@ $$
 $$k1_1=k_2=k_3=\frac{1}{3}$$
 
 
-```
+```python
 def distr_fit(distr_type ,quantiles, probabilities, expectation, bounds=np.array([10*-3, 10**3])):
     func = {
         'gamma': lambda x: ((gamma.ppf(quantiles, a=x, scale=expectation/x)-probabilities)**2).sum(),
