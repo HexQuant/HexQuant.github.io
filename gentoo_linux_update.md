@@ -13,5 +13,5 @@ qdepends -Q '%{CAT}/%{PN}:%{SLOT}' ^dev-lang/ghc
 Принудительно провести пересборку всех кто зависит от dev-lang/ghc:
 
 ```console
-<code>emerge --ignore-default-opts -va1 --keep-going $( qdepends -CQqqF '%{CAT}/%{PN}:%{SLOT}' '^dev-lang/ghc' )</code>
+emerge --ignore-default-opts -va1 --keep-going $( qdepends -CQqqF '%{CAT}/%{PN}:%{SLOT}' '^dev-lang/ghc' )
 ```
