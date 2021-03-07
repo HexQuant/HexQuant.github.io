@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Обновление пакетов в Gentoo Linux"
+author: HexQuant
 tag: Gentoo Linux
 ---
 
-# Обновление пакетов в Gentoo Linux
 ```console
 emerge --ask --update --deep --newuse --verbose-conflicts --with-bdeps=y @world
 ```
