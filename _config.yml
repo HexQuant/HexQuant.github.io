@@ -1,6 +1,11 @@
 theme: jekyll-theme-hacker
 title: HexQ
 description: Свалка мыслей
+logo: logo.svg
+owner:
+   name: Vladimir S Kravchenko
+   email: kvover@gmail.com
+   github: HexQuant
 markdown: kramdown
 kramdown:
    math_engine: mathjax
