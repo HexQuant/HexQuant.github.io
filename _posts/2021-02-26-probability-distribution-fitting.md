@@ -42,17 +42,17 @@ import numpy as np
 from scipy.stats import gamma, beta, lognorm, norm
 from scipy.optimize import minimize_scalar
 
-def distr_fit(distr_type ,quantiles, probabilities, expectation, bounds=np.array([10*-3, 10**3])):
+def distr_fit(distr_type ,quantiles, probabilities, expectation, k=1, bounds=np.array([10*-3, 10**3])):
     # Задаём функцию ошибки
     func = {
-        'gamma': lambda x: 
-        ((gamma.ppf(quantiles, a=x, scale=expectation/x)-probabilities)**2).sum(),
-        'beta': lambda x: 
-        ((beta.ppf(quantiles, a=x, b=x/expectation-x)-probabilities)**2).sum(),
-        'lognorm': lambda EF: 
-        ((lognorm.ppf(quantiles, s=np.log(EF)/1.6449, scale = expectation)-probabilities)**2).sum(),
-        'norm': lambda sigma: 
-        ((norm.ppf(quantiles, loc=expectation, scale=sigma)-probabilities)**2).sum()
+        'gamma': lambda x:
+        (k*(gamma.ppf(quantiles, a=x, scale=expectation/x)-probabilities)**2).sum(),
+        'beta': lambda x:
+        (k*(beta.ppf(quantiles, a=x, b=x/expectation-x)-probabilities)**2).sum(),
+        'lognorm': lambda EF:
+        (k*(lognorm.ppf(quantiles, s=np.log(EF)/1.6449, scale = expectation)-probabilities)**2).sum(),
+        'norm': lambda sigma:
+        (k*(norm.ppf(quantiles, loc=expectation, scale=sigma)-probabilities)**2).sum()
     }.get(distr_type, None)
     if func is None: return None
     # Минимизируем функцию ошибки по одному параметру
