@@ -65,4 +65,4 @@ def distr_fit(distr_type ,quantiles, probabilities, expectation, bounds=np.array
 * The error factor (EF) used for lognormal distributions must be $$ 1 < EF < 10^3 $$
 * The standard deviation for the normal distribution is limited to be less than approximately 60.8% of the mean value. If the standard deviation is higher, a considerable tail of the distribution extends out on the negative domain, which cannot be allowed for any of the parameter types. Actually, distributions with 0% and 1% percentiles lower than 0 are accepted, but in that case these percentiles are truncated to 0.
 
-![test image](/assets/distribution_fitting_1.svg
+![test image](/assets/distribution_fitting_1.svg)
