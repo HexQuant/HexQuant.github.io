@@ -6,8 +6,9 @@ tag: Gentoo Linux
 ---
 
 ```console
-emerge --ask --update --deep --newuse --verbose-conflicts --with-bdeps=y @world
+emerge -avquDNp @world
 ```
+
 ## Проблемы при обновлении пакетов
 ### Конфликт слотов
 Проверить где используется наш пакет, например dev-lang/ghc:
