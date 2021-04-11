@@ -7,14 +7,14 @@ tag: Статистика Python Оптимизация
 
 {{ page.last-modified-date }}
 
-##ВАБ
+## ВАБ
 [The Nordic PSA Group (NPSAG)](https://www.npsag.org/)
 
 [Risk engineering learning courseware and training materials](https://risk-engineering.org/)
 
 [The Swedish Radiation Safety Authority publications](https://www.stralsakerhetsmyndigheten.se/en/publications/)
 
-##Математичнеская оптимизация
+## Математичнеская оптимизация
 [fmin.xyz](https://fmin.xyz/)
 
 [Disciplined Convex Programming](https://dcp.stanford.edu/)
