@@ -29,6 +29,8 @@ pywinauto | Низкоуровневая автоматизация
 python-docx | Работа с файлами в формате *.docx
 iapws | Таблицы состояния воды, льда и пара.
 
+[awesome-python](https://awesome-python.com/) - cайт со списком топовых библиотек для python.
+
 ## Установка
 ### Miniconda
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html) - Python c пакетным менеджером conda.
