@@ -66,3 +66,6 @@ def distr_fit(distr_type ,quantiles, probabilities, expectation, k=1, bounds=np.
 > * The standard deviation for the normal distribution is limited to be less than approximately 60.8% of the mean value. If the standard deviation is higher, a considerable tail of the distribution extends out on the negative domain, which cannot be allowed for any of the parameter types. Actually, distributions with 0% and 1% percentiles lower than 0 are accepted, but in that case these percentiles are truncated to 0.
 
 ![test image](/assets/distribution_fitting_1.svg){: .align-center}
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/https://colab.research.google.com/github/HexQuant/exx/blob/main/probability-distribution-fitting.ipynb)
+
