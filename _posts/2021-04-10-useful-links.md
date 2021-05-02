@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ползеные ссылки"
+title:  "Полезные ссылки"
 author: HexQuant
 tag: Статистика Python Оптимизация
 ---
@@ -24,6 +24,9 @@ tag: Статистика Python Оптимизация
 
 ## Статистика
 [Univariate Distribution Relationships](http://www.math.wm.edu/~leemis/chart/UDR/UDR.html)
+
+## Визуализация данных
+[Reveal the Data (блог Ромы Бунина о визуализации)](https://revealthedata.com/blog/)
 
 ## Инвестиции и трейдинг
 [Stock Index Data](https://www.slickcharts.com/)
