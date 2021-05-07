@@ -67,4 +67,4 @@ def distr_fit(distr_type ,quantiles, probabilities, expectation, k=1, bounds=np.
 
 ![test image](/assets/distribution_fitting_1.svg){: .align-center}
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HexQuant/exx/blob/main/probability-distribution-fitting.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HexQuant/exx/blob/main/Estimating_parameters_from_quantiles/Estimating_parameters_from_quantiles.ipynb)
