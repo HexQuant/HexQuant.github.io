@@ -43,7 +43,7 @@ conda install numpy scipy pandas sympy statsmodels networkx graphviz matplotlib 
 Необходимые пакеты из [conda-forge](https://anaconda.org/conda-forge):
 
 ```console
-conda install -c conda-forge pyautogui pywinauto python-docx iapws cvxopt
+conda install -c conda-forge pyautogui pywinauto python-docx iapws cvxopt graph-tool sqlacodegen
 ```
 
 ### WinPython
