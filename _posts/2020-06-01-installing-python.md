@@ -27,6 +27,8 @@ sqlalchemy | ORM для базы данных
 pyautogui | Автоматизация на основе захвата изображения с экрана
 pywinauto | Низкоуровневая автоматизация
 python-docx | Работа с файлами в формате *.docx
+openpyxl | Работа с таблицами excel
+tqdm | Консольный прогресбар
 iapws | Таблицы состояния воды, льда и пара.
 
 [awesome-python](https://awesome-python.com/) - cайт со списком топовых библиотек для python.
@@ -38,12 +40,12 @@ iapws | Таблицы состояния воды, льда и пара.
 Необходимые пакеты из основного репозитория:
 
 ```console
-conda install numpy scipy pandas sympy statsmodels networkx graphviz matplotlib seaborn pyodbc sqlalchemy
+conda install numpy scipy pandas sympy statsmodels networkx graphviz matplotlib seaborn pyodbc sqlalchemy openpyxl
 ```
 Необходимые пакеты из [conda-forge](https://anaconda.org/conda-forge):
 
 ```console
-conda install -c conda-forge pyautogui pywinauto python-docx iapws cvxopt graph-tool sqlacodegen
+conda install -c conda-forge pyautogui pywinauto python-docx iapws cvxopt graph-tool sqlacodegen tqdm
 ```
 
 ### WinPython
