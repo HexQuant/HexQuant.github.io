@@ -41,3 +41,7 @@ emerge --ignore-default-opts -va1 --keep-going=y $( qdepends -CQqqF '%{CAT}/%{PN
 ```console
 emerge -C $(qlist -IC dev-lang/ghc)
 ```
+Удалить все пакеты Qt и установить заново
+```console
+export INSTALLED_QT_PACKAGES=$(qlist -IC "dev-qt/*") && emerge -Ca ${INSTALLED_QT_PACKAGES} && emerge -av1 ${INSTALLED_QT_PACKAGES}
+```
