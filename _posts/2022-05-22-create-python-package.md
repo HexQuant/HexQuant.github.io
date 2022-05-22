@@ -8,7 +8,7 @@ tag: Python pypi conda
 
 Если работа идёт на Gentoo, то понадобятся следущие пакеты:
 ```bash
-emerge -avq twine virtualenv pip
+emerge -avq twine pip
 ```
 
 Создание бинарного пакета (.whl) и пакета с установкой из исходников (.tar.gz):
@@ -40,4 +40,14 @@ index-servers =
     repository = https://test.pypi.org/legacy/
     username = <user_from_test_pypi>
     password = <password_from_test_pypi>
+```
+
+### Проверка
+```bash
+emerge -avq virtualenv
+mkdir ~/virtualenv/mypackage -p
+cd ~/virtualenv/mypackage
+virtualenv .
+source ./bin/activate
+pip install mypackage
 ```
