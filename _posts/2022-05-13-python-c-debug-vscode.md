@@ -7,7 +7,7 @@ tag: Python C Extensions
 
 1. Установите расширение [Python C++ Debugger](https://marketplace.visualstudio.com/items?itemName=benjamin-simmonds.pythoncpp-debug)
 2. Создайте файл "launch.json":
-```
+```json
 {
     "version": "0.2.0",
     "configurations": [
