@@ -30,3 +30,6 @@ python setup.py clean --all && python setup.py build --debug install
 echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
 ```
 5. Готово, можно ставить бряки и отлаживать
+
+(!) Обратите внимание, что в случае Gentoo, должен быть указан корректный путь к интерпритатору python. Например: */usr/bin/python3.10*. По умолчанию */usr/bin/python* является символьной ссылкой на [python-exec](https://wiki.gentoo.org/wiki/Project:Python/python-exec). 
+
