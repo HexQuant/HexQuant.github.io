@@ -4,6 +4,7 @@ description: Свалка мыслей
 logo: logo.svg
 
 #remote_theme: sighingnow/jekyll-gitbook
+remote_theme: just-the-docs/just-the-docs
 
 #toc:
 #  enabled: true
