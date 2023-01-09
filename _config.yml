@@ -3,25 +3,11 @@ title: Hexq
 description: Свалка мыслей
 logo: logo.svg
 
-#remote_theme: sighingnow/jekyll-gitbook
 remote_theme: just-the-docs/just-the-docs
+search_enabled: false
 
-#toc:
-#  enabled: true
-#  h_min: 1
-#  h_max: 3
-  
 # markdown render engine.
 markdown:         kramdown
-#kramdown:
-#   auto_ids:               true
-#   input:                  GFM
-#   math_engine:            mathjax
-#   smart_quotes:           lsquo,rsquo,ldquo,rdquo
-#   toc_levels:             1..6
-#   syntax_highlighter:     rouge
-#   syntax_highlighter_opts:
-#   guess_lang:           true
 
 syntax_highlighter_style: colorful
 
