@@ -2,7 +2,6 @@
 layout: post
 title: "SQL запросы к БД RiskSpectrum"
 parent: ВАБ
-nav_order: 2
 author: HexQuant
 tags: RiskSpectrum SQL
 ---

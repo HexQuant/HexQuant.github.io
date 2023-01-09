@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Регулярные выражения MS Word"
+parent: Всякое
 author: HexQuant
 tags: MSWord
 ---

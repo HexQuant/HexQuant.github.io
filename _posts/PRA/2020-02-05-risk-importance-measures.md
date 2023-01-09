@@ -2,7 +2,6 @@
 layout: post
 title: "Риск показатели значимости"
 parent: ВАБ
-nav_order: 2
 author: HexQuant
 tags: ВАБ
 ---
