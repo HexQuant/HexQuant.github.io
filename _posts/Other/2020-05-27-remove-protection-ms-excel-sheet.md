@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Снятие защиты листа MS Excel"
+parent: ВАБ
+nav_order: 2
 author: HexQuant
 tags: "MS Excel"
 ---

@@ -1,6 +1,8 @@
 ---
-layout: post
+layout: default
 title:  "Обновление пакетов в Gentoo Linux"
+parent: Linux
+nav_order: 2
 author: HexQuant
 tag: Gentoo Linux
 ---

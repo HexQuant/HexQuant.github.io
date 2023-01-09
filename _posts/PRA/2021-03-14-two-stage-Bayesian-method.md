@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Двухстадийный метод Байеса"
+parent: ВАБ
+nav_order: 2
 author: HexQuant
 tags: ВАБ
 ---

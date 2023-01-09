@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Доверительный интервал для экспонециального распределения"
+parent: ВАБ
+nav_order: 2
 author: HexQuant
 tags: ВАБ
 ---

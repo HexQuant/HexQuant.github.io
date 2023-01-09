@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Полезные ссылки"
+parent: ВАБ
+nav_order: 2
 author: HexQuant
 tag: Статистика Python Оптимизация
 ---

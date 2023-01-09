@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Финансы
+title: ВАБ
 nav_order: 2
 has_children: true
 ---
