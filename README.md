@@ -1,2 +1,2 @@
-# HexM0nk.github.io
+# HexQuant.github.io
 Various technical posts
