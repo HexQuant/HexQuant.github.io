@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Установка Python"
 author: HexQuant
 tags: Python

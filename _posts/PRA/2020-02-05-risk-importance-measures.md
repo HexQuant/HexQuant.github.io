@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Риск показатели значимости"
 parent: ВАБ
 author: HexQuant

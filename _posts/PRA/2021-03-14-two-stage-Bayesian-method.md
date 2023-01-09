@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Двухстадийный метод Байеса"
 parent: ВАБ
 author: HexQuant

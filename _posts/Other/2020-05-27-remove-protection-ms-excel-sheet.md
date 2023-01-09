@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Снятие защиты листа MS Excel"
 parent: Всякое
 author: HexQuant

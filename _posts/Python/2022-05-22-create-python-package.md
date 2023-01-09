@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Создание пакета Python"
 author: HexQuant
 tag: Python pypi conda

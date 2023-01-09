@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Дебагинг модулей Python на С в vscode"
 author: HexQuant
 tag: Python C Extensions

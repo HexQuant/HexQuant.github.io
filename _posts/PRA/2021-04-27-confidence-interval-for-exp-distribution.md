@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Доверительный интервал для экспонециального распределения"
 parent: ВАБ
 author: HexQuant

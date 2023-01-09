@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Полезные ссылки"
 parent: Всякое
 author: HexQuant

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Регулярные выражения MS Word"
 parent: Всякое
 author: HexQuant

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Подгонка вероятностного распределения"
 parent: ВАБ
 author: HexQuant
