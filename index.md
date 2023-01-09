@@ -1,4 +1,10 @@
-# Cкоро здесь будет город-сад!
+---
+layout: default
+title: Home
+nav_order: 1
+description: " Cкоро здесь будет город-сад!"
+permalink: /
+---
 
 А пока почитайте это:
 <ul>
