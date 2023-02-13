@@ -48,17 +48,30 @@ $$y_t=\mu+\sum^p_{i=1}\phi_iy_{t-i}+u_t+\sum^q_{j=1}\theta_ju_{t-j}$$
 ### ADL(p,q)
 Модель авторегрессии-распределённых лагов
 
+### VAR(p)
+Модели векторной авторегрессии. Автроергерссия сразу нескольких скоррелированных рядов.  
+$$
+\left\{\begin{matrix}
+y_t = ARIMA(y,q_y,d_y,q_y) + ARIMA(x,q_{{y}'},d_{{y}'},q_{{y}'})
+\\
+x_t = ARIMA(x,q_x,d_x,q_x) + ARIMA(y,q_{{x}'},d_{{x}'},q_{{x}'})
+\end{matrix}\right.
+$$
 ### ARMAX
 ADL с автокоррелированной ошибкой вида MA
 $$y_t=\mu+\sum^p_{i=1}\phi_iy_{t-i}+u_t+\sum^q_{j=1}\theta_ju_{t-j}+\sum^q_{k=0}\beta_kx_{t-k}$$
 
-## Модели пространства состояний
-???
-
+### Модели пространства состояний
+$$
+\left\{\begin{matrix}
+y_t =\beta_t \cdot x_t +b_t+\epsilon & \epsilon \sim N(0,\sigma_{\epsilon})
+\\
+x_t =\gamma_t \cdot x_{t-1} +c_t+\eta & \eta \sim N(0,\sigma_{\eta})
+\end{matrix}\right.
+$$
 ## Модели оценки дисперсии
 ### ARCH(p)
 ### GARCH(p,q)
 
-## Модели векторной авторегрессии
-### VAR(p)
+
 
