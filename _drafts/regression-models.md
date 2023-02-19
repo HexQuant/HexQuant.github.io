@@ -17,6 +17,10 @@ tag: ML
 Обычный метод наименьших квадратов
 [OLS statsmodels](https://www.statsmodels.org/devel/examples/notebooks/generated/ols.html)
 
+$$\textbf{y} = \textbf{X}\beta+\epsilon$$
+
+$$\epsilon \sim N(0,\sigma^2)$$
+
 ### WLS
 Взвешенный метод наименьших квадратов для гетероскедастических ошибок
 [WLS statsmodels](https://www.statsmodels.org/devel/examples/notebooks/generated/wls.html)
@@ -71,7 +75,7 @@ y_t =\beta_t \cdot x_t +b_t+\epsilon & \epsilon \sim N(0,\sigma_{\epsilon})
 x_t =\gamma_t \cdot x_{t-1} +c_t+\eta & \eta \sim N(0,\sigma_{\eta})
 \end{matrix}\right.
 $$
-#### FDA
+#### DFA
 Dynamic Factor Analysis (DFA) - модель простарнства состояний для множества рядов с кластеризацией рядов:
 
 $$
