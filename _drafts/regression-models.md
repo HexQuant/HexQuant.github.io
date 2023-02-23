@@ -94,6 +94,18 @@ $\textbf{d}_t$ вектор длины $p$, а матрица $\textbf{D}$ ра�
 2. $\textbf{Z} \in \textbf{L}$
 3. $z_{i,j}>0, i=j$
 4. $\textbf{Q}=\textbf{I}_{m \times m}$
+
+### DLM
+Dynamic Linear Models - динамические линейная модель.
+
+$$
+\left\{\begin{matrix}
+y_t=\textbf{X}_t^T \textbf{x}_t+e_t
+\\
+\textbf{x}_t=\textbf{G}\textbf{x}_{t-1}+\textbf{w}_t
+\end{matrix}\right.
+$$
+
 ## Модели оценки дисперсии
 ### ARCH(p)
 ### GARCH(p,q)
