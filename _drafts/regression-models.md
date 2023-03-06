@@ -29,6 +29,16 @@ $$\epsilon \sim N(0,\sigma^2)$$
 Обобщенный метод наименьших квадратов для произвольной ковариации
 [GLS statsmodels](https://www.statsmodels.org/devel/examples/notebooks/generated/gls.html)
 
+## Непараметрическая регрессия
+### Ridge
+### LASSO
+least absolute shrinkage and selection operator
+### LOESS (LOWESS)
+* **LOESS** - locally estimated scatterplot smoothing
+* **LOWESS** - locally weighted scatterplot smoothing
+
+[Видео со StatQuest](https://www.youtube.com/watch?v=Vf7oJ6z2LCc)
+
 ## Авторегрессионные модели
 ### AR(p)
 Модель авторегрессии AR (AutoRegression):
