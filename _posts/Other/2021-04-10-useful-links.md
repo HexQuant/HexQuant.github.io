@@ -18,6 +18,8 @@ tag: Статистика Python Оптимизация
 ## Программирование
 [Блог про C](https://blog.joren.ga/)
 
+[Визуализация выполнения кода на Python, Java, C итд.](https://pythontutor.com/)
+
 ## Вычислительная математика
 [Numerical Linear Algebra](https://nla.skoltech.ru/)
 
@@ -31,6 +33,9 @@ tag: Статистика Python Оптимизация
 
 ## Визуализация данных
 [Reveal the Data (блог Ромы Бунина о визуализации)](https://revealthedata.com/blog/)
+
+## Linux
+[шпаргалка по crontab](https://crontab.guru/)
 
 ## Инвестиции и трейдинг
 [Stock Index Data](https://www.slickcharts.com/)
