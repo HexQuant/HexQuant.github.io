@@ -15,6 +15,9 @@ tag: Статистика Python Оптимизация
 
 [The Swedish Radiation Safety Authority publications](https://www.stralsakerhetsmyndigheten.se/en/publications/)
 
+## Программирование
+[Блог про C](https://blog.joren.ga/)
+
 ## Вычислительная математика
 [Numerical Linear Algebra](https://nla.skoltech.ru/)
 
