@@ -28,7 +28,7 @@ tag: Статистика Python Оптимизация
 
 [Disciplined Convex Programming](https://dcp.stanford.edu/)
 
-## Анализ времяных рядов
+## Анализ временных рядов
 [Forecasting: Principles and Practice (3rd ed), Hyndman](https://otexts.com/fpp3/)
 
 
