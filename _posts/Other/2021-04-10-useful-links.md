@@ -28,6 +28,10 @@ tag: Статистика Python Оптимизация
 
 [Disciplined Convex Programming](https://dcp.stanford.edu/)
 
+## Анализ времяных рядов
+[Forecasting: Principles and Practice (3rd ed), Hyndman](https://otexts.com/fpp3/)
+
+
 ## Статистика
 [Univariate Distribution Relationships](http://www.math.wm.edu/~leemis/chart/UDR/UDR.html)
 
