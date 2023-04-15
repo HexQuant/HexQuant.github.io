@@ -18,6 +18,8 @@ tag: Статистика Python Оптимизация
 ## Программирование
 [Блог про C](https://blog.joren.ga/)
 
+[Блог про Rust](Rust (Programming Language) assessment)
+
 [Визуализация выполнения кода на Python, Java, C итд.](https://pythontutor.com/)
 
 ## Вычислительная математика
